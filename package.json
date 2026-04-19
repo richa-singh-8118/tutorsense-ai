@@ -1,0 +1,48 @@
+{
+  "name": "tutorsense-ai",
+  "version": "1.0.0",
+  "description": "AI-powered voice interview platform for tutor screening",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-avatar": "^1.1.10",
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-dropdown-menu": "^2.1.15",
+    "@radix-ui/react-progress": "^1.1.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-tabs": "^1.1.12",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.9.4",
+    "lucide-react": "^0.511.0",
+    "next": "^16.2.4",
+    "openai": "^4.99.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3",
+    "vercel": "^51.7.0"
+  },
+  "keywords": [
+    "ai",
+    "interview",
+    "tutoring",
+    "voice",
+    "hr-tech"
+  ],
+  "author": "TutorSense AI",
+  "license": "MIT"
+}
